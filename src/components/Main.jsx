@@ -33,7 +33,7 @@ function Main() {
                 <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
             </div>
 
-            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="row row-cols-1 row-cols-md-4 mb-3 text-center">
                 {coins.map(coin=>{
                     return(
                         <Card 
@@ -42,6 +42,7 @@ function Main() {
                             name={coin.name}
                             image={coin.image}
                             currentPrice={coin.current_price}
+                            priceChange={coin.price_change_percentage_24h}
                             rank={coin.market_cap_rank}
                             lastUpdate={coin.last_updated}
                             marketCap={coin.market_cap}
