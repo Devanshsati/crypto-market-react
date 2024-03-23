@@ -1,5 +1,3 @@
-// eslint-disable jsx-a11y/anchor-is-valid
-
 import React from "react";
 
 function Header() {
@@ -19,8 +17,8 @@ function Header() {
                             <li><a href="/#" class="nav-link px-2 link-dark">Products</a></li>
                         </ul>
 
-                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                            <input type="search" class="form-control" placeholder="Search..." aria-label="Search"/>
+                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" action="">
+                            <input type="search" class="form-control" placeholder="Search Coin..." aria-label="Search"/>
                         </form>
 
                         <div class="dropdown text-end">
