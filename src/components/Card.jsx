@@ -14,12 +14,12 @@ function Card(props) {
                             <li>Current Price : <em className="currentprice"><i>₹</i>{props.currentPrice}</em></li>
                             {
                                 props.priceChange<0 ?(
-                                    <li>Price Change : <em className="percentred">{props.priceChange.toFixed(2)}%</em></li>
+                                    <li>Price Change 24hrs: <em className="percentred">{props.priceChange.toFixed(2)}%</em></li>
                                 ):(
-                                    <li>Price Change : <em className="percentgreen">{props.priceChange.toFixed(2)}%</em></li>
+                                    <li>Price Change 24hrs : <em className="percentgreen">{props.priceChange.toFixed(2)}%</em></li>
                                 )
                             }
-                            <li>MKT Cap : ₹ {props.marketCap.toLocaleString()}</li>
+                            <li>MKT Capital : ₹ {(props.marketCap/1000000000).toFixed(2)}B</li>
                             <li>Last Update : {props.lastUpdate}</li>
                         </ul>
                         <button type="button" className="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
