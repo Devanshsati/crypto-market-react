@@ -23,7 +23,8 @@ function Header() {
 
                         <div class="dropdown text-end">
                             <a href="/#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"/>
+                                {/* <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"/> */}
+                                <i class="bi bi-person-circle"></i>
                             </a>
                             <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
                                 <li><a class="dropdown-item" href="/#">New project...</a></li>

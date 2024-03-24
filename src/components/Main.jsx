@@ -29,8 +29,9 @@ function Main() {
     return(
         <div class="container py-3">
             <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-                <h1 class="display-4">Pricing</h1>
-                <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
+                <h1 class="display-4">CryptoCurrency Coin</h1>
+                <p class="lead">This provides a fundamental analysis of the crypto market. In addition to tracking price, volume and market capitalisation, Coin tracks community growth, open-source code development, major events and on-chain metrics.</p>
+                <p class="lead">Complete cryptocurrency market coverage with live coin prices, charts and crypto market cap featuring top 100 coins.</p>
             </div>
 
             <div class="row row-cols-1 row-cols-md-4 mb-3 text-center">
