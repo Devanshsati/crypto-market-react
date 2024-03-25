@@ -27,7 +27,9 @@ function App() {
 
   const handleSearch = (searchTerm) => {
     const filteredCoins = coins.filter((coin) =>
-      coin.name.toLowerCase().includes(searchTerm.toLowerCase())
+      coin.name.toLowerCase().includes(searchTerm) || 
+      coin.symbol.toLowerCase().includes(searchTerm) ||
+      coin.market_cap_rank === parseInt(searchTerm)
     );
     setFilteredCoins(filteredCoins);
   };
