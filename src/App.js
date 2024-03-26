@@ -5,7 +5,6 @@ import Main from './components/Main';
 import axios from 'axios';
 import Footer from './components/Footer';
 
-// https://github.com/Megh2507/React-Crypto-App/blob/main/src/App.js
 
 function App() {
   const [coins, setCoins] = useState([]);
